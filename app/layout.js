@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${lexendDeca.variable} bg-dark-blue h-screen flex flex-col justify-center items-center`}
+        className={`${inter.variable} ${lexendDeca.variable} bg-dark-blue h-[120vh] xl:h-screen flex justify-center items-center`}
       >
         {children}
       </body>
