@@ -19,7 +19,11 @@ module.exports = {
         deca: ["var(--font-lexend-deca)"],
       },
       fontSize: {
-        body: "15px",
+        body: "0.938rem",
+      },
+      backgroundImage: {
+        desktop: "url('./images/image-header-desktop.jpg')",
+        mobile: "url('./images/image-header-mobile.jpg')",
       },
     },
   },
